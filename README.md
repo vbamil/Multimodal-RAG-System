@@ -1,4 +1,4 @@
-#Multimodal RAG System
+# Multimodal RAG System
 
 ## Overview
 The Multimodal RAG System is a comprehensive application designed to facilitate Retrieval-Augmented Generation (RAG) using Large Language Models (LLMs). It enables users to upload documents, extract and process their content, store embeddings in a vector database, and interact with the system via a user-friendly frontend interface. The system supports summarization, entity extraction, and table extraction from various document formats.
