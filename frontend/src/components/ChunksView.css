@@ -1,0 +1,12 @@
+/* File: src/components/ChunksView.css */
+
+.chunk-method-section {
+    margin-bottom: 20px;
+}
+
+.chunk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

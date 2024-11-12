@@ -1,0 +1,10 @@
+/* File: src/components/MetricsSummary.css */
+
+.metrics-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.metrics-section li {
+    margin-bottom: 10px;
+}

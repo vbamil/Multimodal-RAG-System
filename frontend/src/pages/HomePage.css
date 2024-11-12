@@ -1,0 +1,23 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.error-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffe6e6;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    text-align: center;
+}

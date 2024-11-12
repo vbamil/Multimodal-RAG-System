@@ -1,0 +1,16 @@
+/* File: src/components/TablesView.css */
+
+.tables-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tables-section th, .tables-section td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tables-section th {
+    background-color: #f2f2f2;
+    text-align: left;
+}

@@ -1,0 +1,124 @@
+/* src/components/ChunkingDetails.css */
+
+.chunking-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.metrics-section, .chunks-section, .tables-section {
+    margin-bottom: 30px;
+}
+
+.metrics-section h3, .chunks-section h3, .tables-section h3 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.metrics-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.metrics-section ul li {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.chunk {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.chunk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.chunk-header:hover {
+    background-color: #eaeaea;
+}
+
+.chunk-content {
+    padding: 15px;
+}
+
+.entities-section {
+    margin-top: 10px;
+}
+
+.entities-section h5 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.entities-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tables-section {
+    margin-top: 40px;
+}
+
+.table-container {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-header:hover {
+    background-color: #eaeaea;
+}
+
+.table-content {
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.table-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-content th, .table-content td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-content th {
+    background-color: #f2f2f2;
+}
+
+.table-content tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.table-content tr:hover {
+    background-color: #f1f1f1;
+}
